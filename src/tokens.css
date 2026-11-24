@@ -47,6 +47,7 @@
 
     --destructive: #E5484D;
     --destructive-foreground: #FFFFFF;
+    --destructive-light: #FDECEC;
 
     --success: #00A86B;
     --success-foreground: #FFFFFF;
@@ -172,6 +173,7 @@
 
     --destructive: #E5484D;
     --destructive-foreground: #FFFFFF;
+    --destructive-light: #3A1D22;
 
     --success: #00A86B;
     --success-foreground: #FFFFFF;

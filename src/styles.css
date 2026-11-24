@@ -151,8 +151,8 @@
   color: var(--warning);
 }
 .badge-destructive {
-  background: var(--destructive);
-  color: var(--destructive-foreground);
+  background: var(--destructive-light);
+  color: var(--destructive);
 }
 .badge-info {
   background: var(--info-light);
@@ -167,8 +167,8 @@
   color: var(--warning);
 }
 .dark .badge-destructive {
-  background: var(--destructive);
-  color: var(--destructive-foreground);
+  background: var(--destructive-light);
+  color: var(--destructive);
 }
 .dark .badge-info {
   background: var(--info-light);
