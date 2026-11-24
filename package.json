@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "AlaiDesign — TDesign 高能量 Svelte 5 组件库",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "svelte": "./src/index.ts",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
