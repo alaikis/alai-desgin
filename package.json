@@ -1,6 +1,6 @@
 {
   "name": "@alaikis/alaidesign",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "AlaiDesign — TDesign 高能量 Svelte 5 组件库",
   "type": "module",
   "publishConfig": {
@@ -11,7 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/alaikis/alai-desgin.git"
   },
-  "keywords": ["svelte", "svelte5", "design-system", "tdesign", "component-library", "ui"],
+  "keywords": [
+    "svelte",
+    "svelte5",
+    "design-system",
+    "tdesign",
+    "component-library",
+    "ui"
+  ],
   "license": "MIT",
   "svelte": "./src/index.ts",
   "main": "./dist/index.js",
