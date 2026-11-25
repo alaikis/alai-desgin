@@ -1,0 +1,20 @@
+{
+  "name": "@alaikis/alaidesign-vue",
+  "version": "0.2.0",
+  "description": "AlaiDesign Vue wrapper (Web Components)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vue": "^3.5.0"
+  }
+}

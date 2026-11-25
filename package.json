@@ -1,8 +1,9 @@
 {
   "name": "@alaikis/alaidesign",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "AlaiDesign — TDesign 高能量 Svelte 5 组件库",
   "type": "module",
+  "workspaces": ["packages/*"],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
@@ -35,8 +36,9 @@
       "default": "./src/index.ts"
     },
     "./components/ui/*": {
-      "svelte": "./dist/components/ui/*",
-      "default": "./dist/components/ui/*"
+      "types": "./dist/components/ui/*/index.d.ts",
+      "svelte": "./dist/components/ui/*/index.js",
+      "default": "./dist/components/ui/*/index.js"
     },
     "./components/ui/*/*.svelte": {
       "svelte": "./dist/components/ui/*/*.svelte",
