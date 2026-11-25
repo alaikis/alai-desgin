@@ -1,5 +1,5 @@
 {
-  "name": "@alaikis/alaidesign-web",
+  "name": "@alaikis/alaidesign-ui",
   "version": "0.2.0",
   "description": "AlaiDesign Web Components core (framework-agnostic)",
   "type": "module",

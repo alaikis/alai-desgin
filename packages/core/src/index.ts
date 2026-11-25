@@ -1,4 +1,4 @@
-// @alaikis/alaidesign-web — AlaiDesign Web Components 核心
+// @alaikis/alaidesign-ui — AlaiDesign Web Components 核心
 // 组件清单与 Svelte 包 src/index.ts 的 114 个导出对齐；
 // 全部组件在此注册（import 本包即注册全部自定义元素）。
 

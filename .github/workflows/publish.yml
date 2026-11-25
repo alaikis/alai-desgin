@@ -33,14 +33,14 @@ jobs:
       - name: Build
         run: |
           npm run build
-          npm run build --workspace=@alaikis/alaidesign-web
+          npm run build --workspace=@alaikis/alaidesign-ui
           npm run build --workspace=@alaikis/alaidesign-vue
           npm run build --workspace=@alaikis/alaidesign-react
 
       - name: Publish to npmjs
         run: |
           npm publish --access public
-          npm publish --workspace=@alaikis/alaidesign-web --access public
+          npm publish --workspace=@alaikis/alaidesign-ui --access public
           npm publish --workspace=@alaikis/alaidesign-vue --access public
           npm publish --workspace=@alaikis/alaidesign-react --access public
         env:
