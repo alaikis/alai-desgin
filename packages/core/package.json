@@ -15,6 +15,9 @@
     "./styles.css": "./dist/styles.css"
   },
   "files": ["dist", "src"],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json && node scripts/copy-assets.mjs",
     "test": "vitest run"
